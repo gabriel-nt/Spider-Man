@@ -4,12 +4,13 @@ import { Container } from './styles';
 import LoaderImg from '../../assets/loader.svg';
 
 const Loading: React.ForwardRefRenderFunction<HTMLDivElement> = (
-  props,
+  { children },
   ref,
 ) => {
   return (
     <Container ref={ref}>
       <LoaderImg />
+      {children}
     </Container>
   );
 };

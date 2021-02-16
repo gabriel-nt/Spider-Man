@@ -8,7 +8,7 @@ import LogoImg from '../../assets/logo.svg';
 import HeaderMobile from '../HeaderMobile';
 
 const Header: React.ForwardRefRenderFunction<HTMLHeadingElement> = (
-  props,
+  { children },
   ref,
 ) => {
   const [active, setActive] = useState(false);
@@ -58,6 +58,8 @@ const Header: React.ForwardRefRenderFunction<HTMLHeadingElement> = (
         </NavSocial>
 
         <HeaderMobile />
+
+        {children}
       </Navbar>
     </Container>
   );
