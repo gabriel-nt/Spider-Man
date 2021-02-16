@@ -1,17 +1,17 @@
 import { useRef, useEffect } from 'react';
 import { TimelineMax, Expo } from 'gsap';
 
-import { Container, Grid, Title } from './styles';
+import { Container, Grid, Title } from '../styles/pages/Characters';
 
-import LogoImg from '../../src/assets/spider-man-text.svg';
-import charactersImg from '../../src/assets/characters.jpg';
-import milesMoralesImg from '../../src/assets/characters/miles-morales.png';
-import rioMoralesImg from '../../src/assets/characters/rio-morales.png';
-import peterParkerImg from '../../src/assets/characters/peter-parker.png';
-import gankeLeeImg from '../../src/assets/characters/ganke-lee.png';
+import LogoImg from '../assets/spider-man-text.svg';
+import charactersImg from '../assets/characters.jpg';
+import milesMoralesImg from '../assets/characters/miles-morales.png';
+import rioMoralesImg from '../assets/characters/rio-morales.png';
+import peterParkerImg from '../assets/characters/peter-parker.png';
+import gankeLeeImg from '../assets/characters/ganke-lee.png';
 
-import Header from '../../src/components/Header';
-import ImgBackground from '../../src/components/ImgBackground';
+import Header from '../components/Header';
+import ImgBackground from '../components/ImgBackground';
 
 const Characters: React.FC = () => {
   const gridRef = useRef<HTMLDivElement>(null);

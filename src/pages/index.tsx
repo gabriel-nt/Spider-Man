@@ -4,17 +4,17 @@ import { useRef, useEffect } from 'react';
 import { TimelineMax, Expo } from 'gsap';
 import { FaPlaystation } from 'react-icons/fa';
 
-import { Container, BackgroundLines, Buttons } from './styles';
+import { Container, BackgroundLines, Buttons } from '../styles/pages/Home';
 
-import Header from '../../src/components/Header';
-import Loading from '../../src/components/Loading';
-import VideoBackground from '../../src/components/VideoBackground';
+import Header from '../components/Header';
+import Loading from '../components/Loading';
+import VideoBackground from '../components/VideoBackground';
 
-import BgLines from '../../src/assets/lines.svg';
-import MarvelImg from '../../src/assets/marvel.svg';
-import spiderMan from '../../src/assets/spider-man.png';
-import videoSpiderman from '../../src/assets/spider-man.mp4';
-import SpiderManTextImg from '../../src/assets/spider-man-text.svg';
+import BgLines from '../assets/lines.svg';
+import MarvelImg from '../assets/marvel.svg';
+import spiderMan from '../assets/spider-man.png';
+import videoSpiderman from '../assets/spider-man.mp4';
+import SpiderManTextImg from '../assets/spider-man-text.svg';
 
 const Home: React.FC = () => {
   const imgRef = useRef<HTMLDivElement>(null);

@@ -1,16 +1,16 @@
 import { useRef, useEffect } from 'react';
 import { TimelineMax, Expo } from 'gsap';
 
-import { Container, Content, Features } from './styles';
+import { Container, Content, Features } from '../styles/pages/About';
 
-import spiderman from '../../src/assets/spider-man-2.png';
-import logoMarvelImg from '../../src/assets/logo-marvel.png';
-import videoAbout from '../../src/assets/spider-man-about.mp4';
-import spidermanSee from '../../src/assets/spider-man-see.png';
-import spidermanJump from '../../src/assets/spider-man-jump.png';
-import spidermanFight from '../../src/assets/spider-man-fight.png';
+import spiderman from '../assets/spider-man-2.png';
+import logoMarvelImg from '../assets/logo-marvel.png';
+import videoAbout from '../assets/spider-man-about.mp4';
+import spidermanSee from '../assets/spider-man-see.png';
+import spidermanJump from '../assets/spider-man-jump.png';
+import spidermanFight from '../assets/spider-man-fight.png';
 
-import Header from '../../src/components/Header';
+import Header from '../components/Header';
 import VideoBackground from 'components/VideoBackground';
 
 const About: React.FC = () => {

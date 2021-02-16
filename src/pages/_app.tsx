@@ -2,10 +2,10 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 
-import image from '../src/assets/github/home.png';
+import image from '../assets/github/home.png';
 
-import theme from '../src/styles/theme';
-import GlobalStyle from '../src/styles/global';
+import theme from '../styles/theme';
+import GlobalStyle from '../styles/global';
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   let url = '';

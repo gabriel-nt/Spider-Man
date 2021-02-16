@@ -3,14 +3,13 @@ import { TimelineMax, Expo } from 'gsap';
 import { TiChevronLeft, TiChevronRight } from 'react-icons/ti';
 
 import db from '../../db';
+import costumeImg from '../assets/costumes.png';
 
-import Header from '../../src/components/Header';
-import ImgBackground from '../../src/components/ImgBackground';
-
-import costumeImg from '../../src/assets/costumes.png';
-
-import { Container, NavigationIcons, Title } from './styles';
+import Header from '../components/Header';
 import Carousel from 'components/Carousel';
+import ImgBackground from '../components/ImgBackground';
+
+import { Container, NavigationIcons, Title } from '../styles/pages/Costumes';
 
 const Costumes: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
