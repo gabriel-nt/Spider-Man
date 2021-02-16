@@ -9,9 +9,6 @@ export const Container = styled.div`
   padding-right: 16px;
   padding-left: 16px;
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 
   div {
     width: 100%;
@@ -45,3 +42,5 @@ export const Title = styled.div`
     padding-bottom: 5px;
   }
 `;
+
+export default {};

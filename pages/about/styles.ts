@@ -110,3 +110,5 @@ export const Features = styled.div`
     }
   }
 `;
+
+export default {};

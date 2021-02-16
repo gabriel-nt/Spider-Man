@@ -54,3 +54,5 @@ export const Title = styled.div`
     padding-bottom: 5px;
   }
 `;
+
+export default {};

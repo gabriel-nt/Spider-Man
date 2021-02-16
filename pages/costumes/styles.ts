@@ -51,3 +51,5 @@ export const Title = styled.div`
     letter-spacing: 1px;
   }
 `;
+
+export default {};

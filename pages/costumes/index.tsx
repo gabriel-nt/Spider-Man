@@ -12,7 +12,7 @@ import costumeImg from '../../src/assets/costumes.png';
 import { Container, NavigationIcons, Title } from './styles';
 import Carousel from 'components/Carousel';
 
-const Home: React.FC = () => {
+const Costumes: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const title1Ref = useRef<HTMLDivElement>(null);
   const title2Ref = useRef<HTMLDivElement>(null);
@@ -127,4 +127,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Costumes;

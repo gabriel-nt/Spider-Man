@@ -170,3 +170,5 @@ export const BackgroundLines = styled.div`
     }
   }
 `;
+
+export default {};
