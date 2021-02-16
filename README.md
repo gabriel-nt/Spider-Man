@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/gabriel-nt/Spider-Man/blob/main/src/assets/github/logo.png" alt="Spider-Man-Miles-Morales" />
+  <img src="https://github.com/gabriel-nt/Spider-Man/blob/main/src/assets/github/logo.png" alt="Spider-Man-Miles-Morales" height="150"/>
 </p>
 <h1 align="center">
     🚀 Spider Man - Miles Morales
