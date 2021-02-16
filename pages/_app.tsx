@@ -2,6 +2,8 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 
+import image from '../src/assets/github/home.png';
+
 import theme from '../src/styles/theme';
 import GlobalStyle from '../src/styles/global';
 
@@ -20,7 +22,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Spider Man - Miles Morales" />
         <meta property="og:description" content="Spider Man - Miles Morales" />
-        <meta property="og:image" content="Spider Man - Miles Morales" />
+        <meta property="og:image" content={image} />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
