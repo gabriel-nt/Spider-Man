@@ -1,41 +1,93 @@
-# TypeScript Next.js example
+<p align="center">
+  <img src="https://github.com/gabriel-nt/Spider-Man/blob/main/src/assets/github/logo.png" alt="Spider-Man-Miles-Morales" />
+</p>
+<h1 align="center">
+    🚀 Spider Man - Miles Morales
+</h1>
+<p align="center">Aplicação desenvolvida durante a FrontWeek</p>
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+<p align="center">
+  <img src="https://img.shields.io/badge/react%20version-16.8.0-informational"/>
+  <img src="https://img.shields.io/badge/next%20version-latest-important" />
+  <img src="https://img.shields.io/badge/last%20commit-september-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
 
-## Deploy your own
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-rodando-a-aplicação">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Lincença</a>
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+### 💻 Projeto
 
-## How to use it?
+A aplicação é uma Landing Page do jogo Spider Man - Miles Morales. Aplicação desenvolvida durante a FrontWeek e novas features adicionadas
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### ✅ Resultados
+<img src="https://github.com/gabriel-nt/Spider-Man/blob/main/src/assets/github/home.png" />
+
+### 📎 Features
+
+- [x] Efeitos com Tilt
+- [x] Animações com GSAP
+- [x] Listagem de Trajes
+- [x] ideias de novos trajes
+- [x] Tooltips nos sliders
+- [x] Personagens e descrição do jogo
+
+### ⚙ Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) 
+e uma conta na [Vercel](https://vercel.com/) para fazer o deploy da aplicação
+
+### 🎲 Rodando a Aplicação
 
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
+# Clone este repositório
+$ git clone https://github.com/gabriel-nt/Spider-Man/
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### 🚀 Tecnologias
 
-## Notes
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+- ReactJS
+- NextJS
+- Typescript
 
-```
-npm install --save-dev typescript
-```
+### 📕 Bibliotecas
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+Esse projeto foi utilizou das seguintes lib:
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+- styled-components
+- gsap
+- swiper
+- react-tilt
+- next-images
+- next-videos
+- react-icons
+- Prettier
+- Eslint
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+### 📝 Licença
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+Esse projeto está sob a licença MIT.
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+<hr/>
+
+Feito por Gabriel Teixeira
+
