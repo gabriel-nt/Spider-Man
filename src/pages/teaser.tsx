@@ -4,7 +4,7 @@ import { TimelineMax, Expo } from 'gsap';
 import { Container, Video, Title } from '../styles/pages/Teaser';
 
 import LogoImg from '../../src/assets/spider-man-text.svg';
-import teaserImg from '../../src/assets/spider-man-see.png';
+import teaserImg from '../../src/assets/spider-man-see.jpg';
 
 import Header from '../components/Header';
 import ImgBackground from '../components/ImgBackground';

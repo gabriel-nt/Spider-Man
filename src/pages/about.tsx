@@ -6,9 +6,9 @@ import { Container, Content, Features } from '../styles/pages/About';
 import spiderman from '../assets/spider-man-2.png';
 import logoMarvelImg from '../assets/logo-marvel.png';
 import videoAbout from '../assets/spider-man-about.mp4';
-import spidermanSee from '../assets/spider-man-see.png';
-import spidermanJump from '../assets/spider-man-jump.png';
-import spidermanFight from '../assets/spider-man-fight.png';
+import spidermanSee from '../assets/spider-man-see.jpg';
+import spidermanJump from '../assets/spider-man-jump.jpg';
+import spidermanFight from '../assets/spider-man-fight.jpg';
 
 import Header from '../components/Header';
 import VideoBackground from 'components/VideoBackground';

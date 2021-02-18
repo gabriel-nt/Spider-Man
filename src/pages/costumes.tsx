@@ -3,7 +3,7 @@ import { TimelineMax, Expo } from 'gsap';
 import { TiChevronLeft, TiChevronRight } from 'react-icons/ti';
 
 import db from '../../db';
-import costumeImg from '../assets/costumes.png';
+import costumeImg from '../assets/costumes.jpg';
 
 import Header from '../components/Header';
 import Carousel from 'components/Carousel';
