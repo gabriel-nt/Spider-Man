@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/react%20version-16.8.0-informational"/>
   <img src="https://img.shields.io/badge/next%20version-latest-important" />
-  <img src="https://img.shields.io/badge/last%20commit-september-blue" />
+  <img src="https://img.shields.io/badge/last%20commit-february-blue" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
